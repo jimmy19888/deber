@@ -1,0 +1,26 @@
+{% extends 'core/menu.html' %}
+{% block title %}
+    ACERCA
+{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/Inicio2.jpeg'%}{% endblock %}
+{% block h1 %}
+    Acerca de nuestra ropas
+{% endblock %}
+{% block contenido %}
+    {% load static %}
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/INICIO.jpeg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">ROPAS S.A</h2>
+          <p>Le ofrecemos indumentarias deportivas de calidad a todos nuestra clientes/as, para toda clase de deporte y sobre todo con una excelente calidad para que nuestros clientes se sientan seguros de portar nuestras indumentarias resistentes y puedan tener
+              una experiencia unica con nuestros diferentes tipos de marcas de ropa.<p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+{% endblock %}

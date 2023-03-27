@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aff43d8c-82cb-4b2f-901f-379d93c0ee33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2KtbIvEOhFSK4oOiT58eZQ4k7Pf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Users/proyecto" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Sistema_Inventario_Ropa" type="Python.DjangoServer" factoryName="Django server" singleton="false">
+      <module name="Sistema_Inventario_Ropa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Sistema_Inventario_Ropa.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aff43d8c-82cb-4b2f-901f-379d93c0ee33" name="Default Changelist" comment="" />
+      <created>1674796751098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674796751098</updated>
+      <workItem from="1674796772886" duration="579000" />
+      <workItem from="1674797939233" duration="8871000" />
+      <workItem from="1674807207512" duration="871000" />
+      <workItem from="1675134827831" duration="1748000" />
+      <workItem from="1675136598280" duration="2223000" />
+      <workItem from="1675138848885" duration="2034000" />
+      <workItem from="1675190051260" duration="1482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="36" key="#Sistema_Inventario_Ropa" timestamp="1675135564266">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="439" y="36" key="#Sistema_Inventario_Ropa/0.0.1440.860@0.0.1440.860" timestamp="1675135564266" />
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1674799135755">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1674799135755" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1674798036717">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1674798036717" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1675136578285">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1675136578285" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1675136578285">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1675136578285" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1675136578285">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1675136578285" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1675136578285">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1675136578285" />
+    <state x="421" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1675190057109">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="421" y="253" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1675190057109" />
+  </component>
+</project>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Francisco Saul Gomez" />
+    <meta name="description" content="Gratis Saul Template" />
+    <meta name="keywords" content="Jigsaw-Root" />
+    <link rel="canonical" href="https://franciscogomez.github.io/jig-template/" />
+    <title>Login Inicio</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="column is-4 is-offset-4">
+            <div class="box">
+              <p class="subtitle is-4">Iniciar Sesion.</p>
+              <br />
+
+	      {% if error_message %}
+                 <p>{{ error_message }}</p>
+              {% endif %}
+              <form method="post">
+                {% csrf_token %}
+                <div class="field">
+                  <p class="control has-icons-left has-icons-right">
+                    <input class="input is-medium" type="email" placeholder="Email" required class="validate" autocomplete="off" name="username"/>
+                    <span class="icon is-medium is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-medium is-right">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control has-icons-left">
+                    <input class="input is-medium" type="password" placeholder="Password" required class="validate" autocomplete="off" name="password"/>
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-lock"></i>
+                    </span>
+                  </p>
+                </div>
+                <div class="field">
+                  <label class="checkbox">
+                    <input type="checkbox" />
+                    Recuerdame
+                  </label>
+                </div>
+                <input class="button is-block is-info is-large is-fullwidth" type="submit" value="Ingresar" name="btningresar">
+                <p class="subtitle is-5">Ingresar Sesion</p>
+                <div class="buttons is-centered" style="margin-bottom: 0;">
+                  <a class="button is-medium is-facebook">
+                    <span class="icon">
+                      <i class="fab fa-facebook-f fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-twitter">
+                    <span class="icon">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-github">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                  </a>
+                </div>
+              </form>
+            </div>
+            <p class="has-text-grey">
+              <a href="#">Registrarse</a> &nbsp;·&nbsp; <a href="#">Recordar Contraseña</a> &nbsp;·&nbsp;
+              <a href="#">Necesitas Ayuda</a>
+            </p>
+            <div class="languages select is-small is-rounded">
+              <select>
+                <option selected>Español</option>
+                <option>Frances</option>
+                <option>Aleman</option>
+                <option>Italiano</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container has-text-centered">
+          <p class="footer-text">
+            <a href="https://www.franciscogomez.com?utm_source=Github" style="color: white;">Jimmy <i class="fa fa-heart fa-fw" style="font-size: 10px; color: red;"></i> by Aldi Duzha</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

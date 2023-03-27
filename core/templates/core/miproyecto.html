@@ -1,0 +1,38 @@
+{% extends 'core/menu.html' %}
+{% block title %}
+    PORTAFOLIO
+{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/Inicio2.jpeg' %}{% endblock %}
+{% block h1 %}
+    Portafolio
+{% endblock %}
+
+{% block contenido %}
+    {% load static %}
+    <!-- Contenido Principal -->
+	    <di class="container">
+	      <!-- Proyecto -->
+	      <div class="row project">
+	      	<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{% static 'core/img/Portafolio1.jpeg' %}" alt="">
+	      	</div>
+	        <div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">Mi Proyecto JIMMY istg</h2>
+	          <p>Es una herramiente donde no brinda el  mejoramiento del entorno, con su servicio a tiempo y un equipo comprometido. Ser líderes en el mercado de ferretería, construcción y decoración, ofreciendo un servicio rápido y eficiente basado en la innovación continúa y con la gente más especializada..</p>
+	          <p><a href="http://google.com">Más información</a></p>
+	      	</div>
+	      </div>
+	      <!-- Proyecto -->
+	      <div class="row project">
+	      	<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{% static 'core/img/Portafolio2.jpeg' %}" alt="">
+	      	</div>
+	        <div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">Mi segundo proyecto JIMMY istg</h2>
+	          <p>El sistema de nuestro inventario de ropa nos permite facilitar las marcas que tenemos en nuestra bodega para haci cuando tengamos pedidos de nuestros clientes mayoristas o minoristas sea mas agil la busqueda de nuestros productos.</p>
+	          <p><a href="http://google.com">Más información</a></p>
+	      	</div>
+	      </div>
+		  </di>
+
+{% endblock %}
